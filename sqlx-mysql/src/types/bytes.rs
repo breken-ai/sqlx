@@ -26,6 +26,7 @@ impl Type<MySql> for [u8] {
                 | ColumnType::String
                 | ColumnType::VarString
                 | ColumnType::Enum
+                | ColumnType::Vector
         )
     }
 }
